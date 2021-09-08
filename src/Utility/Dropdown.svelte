@@ -1,6 +1,7 @@
 
 <script>
     export let title
+	import { slide } from 'svelte/transition';
 
     let show = false
     function toggle() {
@@ -9,16 +10,20 @@
 </script>
 
 <li>
-    <h4>{title} <button on:click={toggle}><i class="arrow down"></i></button> </h4> 
+    <button class="btn btn-outline-primary" on:click={toggle}><h4>{title}</h4> <i class="arrow down"></i></button> 
     {#if show}
-        <slot>Nothing here yet!</slot>
+        <div class="container" transition:slide>
+            <slot>Nothing here yet!</slot>
+        </div>
     {/if}
 </li>
 
 <style>
+    .container {
+        text-align: center;
+    }
     button {
-        background: transparent;
-        border-radius: 20px;
+        width: 90%;
         margin: 1rem;
     }
     .arrow {
