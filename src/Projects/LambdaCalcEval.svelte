@@ -1,13 +1,9 @@
 <script>
-    let show = false
-    function toggle() {
-        show ^= true
-    }
+    import Dropdown from '../Utility/Dropdown.svelte'
 </script>
-<li>
-    <h4>LambdaCalcEval <i class="arrow down"
-        on:click={toggle}></i> </h4> 
-    {#if show}
+
+<Dropdown title="LambdaCalcEval">
+    <slot>
         <a target="_blank" href="https://lambdacalceval.ronaldmcorona.now.sh">
         LambdaCalcEval</a> is a <a target="_blank"
         href="https://en.wikipedia.org/wiki/Lambda_calculus"
@@ -39,8 +35,8 @@
         <div>
             <img class="fit" alt="oops: broken" src="images/lambdacalceval.png">
         </div>
-    {/if}
-</li>
+    </slot>
+</Dropdown>
 
 <style>
     .fit {
@@ -49,18 +45,6 @@
         max-width: 80%;
         width: 80%;
         height: auto;
-    }
-    .arrow {
-        border: solid white;
-        border-width: 0 5px 5px 0;
-        display: inline-block;
-        padding: 5px;
-        margin: 1rem;
-    }
-
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
     }
 
 </style>
