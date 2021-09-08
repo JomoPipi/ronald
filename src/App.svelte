@@ -1,5 +1,6 @@
 <script>
 	export let name;
+	import Summary from './Summary.svelte'
 	import Projects from './Projects/Projects.svelte'
 </script>
 
@@ -14,12 +15,15 @@
 		</div>
 		<div id="main-content">
 			<!-- <div id="main__grid"></div> -->
-			<h4> Summary </h4>
-				<p> I started learning to code at the end of 2017, and I like it. </p>
+			<Summary/>
 			
+			<br><br>
+
 			<Projects/>
 
-			<h4> Contact </h4>
+			<br><br>
+
+			<h3> Contact </h3>
 			Ronaldmcorona@gmail.com
 			<br> <a target="_blank" href="https://github.com/JomoPipi"
 			>https://github.com/JomoPipi</a>
