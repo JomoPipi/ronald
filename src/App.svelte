@@ -34,23 +34,23 @@
 <style>
 
 	#main-content {
-	padding: 10%;
+		padding: 10%;
 	}
 
 	.ronald-img {
-	width: 30%;
+		width: 30%;
 	}
 
 	.title-pic {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: distribute;
-		justify-content: space-around;
-	-webkit-box-align: center;
-		-ms-flex-align: center;
-			align-items: center;
-	padding: 4%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		padding: 4%;
 	}
 
 /*# sourceMappingURL=styles.css.map */

@@ -9,8 +9,9 @@
     }
 </script>
 
-<li>
-    <button class="btn btn-outline-primary" on:click={toggle}><h4>{title}</h4> <i class="arrow down"></i></button> 
+<li class="showing">
+    <button class="btn btn-outline-primary"
+        on:click={toggle}>{title}<i class="arrow down"></i></button> 
     {#if show}
         <div class="container" transition:slide>
             <slot>Nothing here yet!</slot>
@@ -19,23 +20,29 @@
 </li>
 
 <style>
-    .container {
-        text-align: center;
-    }
     button {
-        width: 90%;
+        text-align: left;
+        width: 100%;
+        height: 80px;
         margin: 1rem;
+        font-size: 2rem;
     }
+
     .arrow {
+        float: right;
         border: solid white;
         border-width: 0 5px 5px 0;
-        display: inline-block;
         padding: 5px;
-        margin: 1rem;
+        margin: 0.5rem;
     }
 
     .down {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
+    }
+
+    .showing {
+        display: sticky;
+        top: 0;
     }
 </style>
