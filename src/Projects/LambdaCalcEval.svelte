@@ -42,8 +42,8 @@
     .fit {
         display: absolute;
         display: block;
-        max-width: 80%;
-        width: 80%;
+        max-width: 100%;
+        width: 100%;
         height: auto;
     }
 

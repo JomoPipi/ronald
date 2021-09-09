@@ -37,9 +37,10 @@
     }
     .fit2 {
         display: block;
-        width: 200px; /* width of container */
-        height: 200px; /* height of container */
+        width: 100%; /* width of container */
+        height: 250px;
         object-fit: cover;
-        object-position: 10% 50%; /* try 20px 10px */ 
+        object-position: 10% 60%; /* try 20px 10px */ 
+        margin: 10px 0px;
     }
 </style>
