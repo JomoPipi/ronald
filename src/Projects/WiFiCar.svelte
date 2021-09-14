@@ -32,15 +32,19 @@
 
 <style>
     iframe {
-        width: 100%;
+        display: block;
+        max-width: 100%;
         height: auto;
+        margin: auto;
+        margin-top: 10px;
     }
     .fit2 {
         display: block;
-        width: 100%; /* width of container */
+        width: 250px; /* width of container */
         height: 250px;
         object-fit: cover;
         object-position: 10% 60%; /* try 20px 10px */ 
-        margin: 10px 0px;
+        /* margin: 10px 0px; */
+        margin: auto;
     }
 </style>

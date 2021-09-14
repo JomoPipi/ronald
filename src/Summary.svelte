@@ -12,16 +12,14 @@
     <p>
         Hi, I'm Ronald!
         <br>
-        In 2017, my friend, Laurent, introduced me to programming,
-        and now I really like it.
-        <br>
+        I started learning programming in 2017, and I really enjoy it.
+        <!-- <br>
         Here is some proof that he considers me a dependable person.
         <br>
-        <!-- svelte-ignore a11y-media-has-caption -->
         <video width="320" height="240" controls loop="true">
             <source src="images/ollie.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
     </p>
 {/if}
 

@@ -10,7 +10,7 @@
 			<img class="ronald-img" alt="ronald" src="images/ronald.jpg">
 			<div class="flex-vert">
 				<h1>{name} Corona</h1>
-				<h4>writes cool stuff</h4>
+				<h4>writes interactive applications</h4>
 			</div>
 		</div>
 		<div id="main-content">
