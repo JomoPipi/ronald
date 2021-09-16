@@ -1,6 +1,7 @@
 
 <script>
     export let title
+    export let btnImgSrc
 	import { slide } from 'svelte/transition';
 
     let show = false
@@ -11,7 +12,12 @@
 
 <li class="showing">
     <button class="btn btn-outline-primary"
-        on:click={toggle}>{title}<i class="arrow down"></i></button> 
+        on:click={toggle}>
+        {title}
+        <img class="pic" alt="nunisynth" src={btnImgSrc}>
+        <i class="arrow down"></i>
+    
+    </button> 
     {#if show}
         <div class="container" transition:slide>
             <slot>Nothing here yet!</slot>
@@ -27,7 +33,6 @@
         margin: 1rem;
         font-size: 2rem;
     }
-
     .arrow {
         float: right;
         border: solid white;
@@ -35,14 +40,16 @@
         padding: 5px;
         margin: 0.5rem;
     }
-
     .down {
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
     }
-
     .showing {
         display: sticky;
         top: 0;
+    }
+    .pic {
+        height: 90%;
+        width: auto;
     }
 </style>

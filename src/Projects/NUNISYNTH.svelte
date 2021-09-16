@@ -2,7 +2,7 @@
     import Dropdown from '../Utility/Dropdown.svelte'
 </script>
 
-<Dropdown title="NUNISYNTH"><slot>
+<Dropdown title="NUNISYNTH" btnImgSrc="https://nunisynth.com/static/media/allnodes.90720be2.png"><slot>
     <a target="_blank" href="https://nunisynth.com">
     NUNISYNTH</a> is a <a target="_blank"
     href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)"

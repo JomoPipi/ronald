@@ -2,7 +2,9 @@
     import Dropdown from '../Utility/Dropdown.svelte'
 </script>
 
-<Dropdown title="LambdaCalcEval">
+<Dropdown
+    title="LambdaCalcEval"
+    btnImgSrc="images/lambdacalceval.png">
     <slot>
         <a target="_blank" href="https://lambdacalceval.ronaldmcorona.now.sh">
         LambdaCalcEval</a> is a <a target="_blank"
