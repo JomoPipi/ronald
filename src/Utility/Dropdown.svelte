@@ -29,7 +29,6 @@
     button {
         text-align: left;
         width: 100%;
-        /* height: 80px; */
         margin: auto;
         margin-bottom: 1rem;
         font-size: 2rem;
@@ -51,7 +50,7 @@
     }
     .pic {
         display: block;
-        width: 50%;
+        width: 80%;
         height: auto;
         margin: auto;
     }
