@@ -35,18 +35,11 @@
             </li>
         </ul>
         <div>
-            <img class="fit" alt="oops: broken" src="images/lambdacalceval.png">
+            <!-- <img class="fit" alt="oops: broken" src="images/lambdacalceval.png"> -->
         </div>
     </slot>
 </Dropdown>
 
 <style>
-    .fit {
-        display: absolute;
-        display: block;
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-    }
-
+    
 </style>

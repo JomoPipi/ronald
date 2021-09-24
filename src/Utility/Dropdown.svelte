@@ -10,7 +10,7 @@
     }
 </script>
 
-<li class="showing">
+<div class="showing">
     <button class="btn btn-outline-primary"
         on:click={toggle}>
         {title}
@@ -23,14 +23,15 @@
             <slot>Nothing here yet!</slot>
         </div>
     {/if}
-</li>
+</div>
 
 <style>
     button {
         text-align: left;
         width: 100%;
-        height: 80px;
-        margin: 1rem;
+        /* height: 80px; */
+        margin: auto;
+        margin-bottom: 1rem;
         font-size: 2rem;
     }
     .arrow {
@@ -49,7 +50,9 @@
         top: 0;
     }
     .pic {
-        height: 90%;
-        width: auto;
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: auto;
     }
 </style>

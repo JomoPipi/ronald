@@ -13,7 +13,7 @@
     Its original purpose was
     to facilitate exploring and experimenting with the API,
     but it evolved into something more.
-    <img class="nunisynth-pic-0 fit" alt="nunisynth" src="https://nunisynth.com/static/media/allnodes.90720be2.png">
+    <!-- <img class="nunisynth-pic-0 fit" alt="nunisynth" src="https://nunisynth.com/static/media/allnodes.90720be2.png"> -->
 
     <ul>
         <li>It's been through several iterations of UI refinements.

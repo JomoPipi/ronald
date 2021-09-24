@@ -32,13 +32,14 @@
 </main>
 
 <style>
-
 	#main-content {
 		padding: 10%;
 	}
 
 	.ronald-img {
 		width: 30%;
+		margin: 5%;
+		border-radius: 0.5rem;
 	}
 
 	.title-pic {
