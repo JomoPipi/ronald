@@ -37,7 +37,7 @@
 	}
 
 	.ronald-img {
-		width: 30%;
+		width: 40%;
 		margin: 5%;
 		border-radius: 0.5rem;
 	}
