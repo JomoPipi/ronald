@@ -5,14 +5,12 @@
     }
 </script>
 
-<h3> Summary 
-    <!-- <i class="arrow down" on:click={toggle}></i> -->
-</h3> 
+<!-- <h3> Summary 
+</h3>  -->
 {#if show}
     <p>
-        Hi, I'm Ronald!
-        <br>
-        I started learning programming in 2017, and I really enjoy it.
+        I'm an independent software developer working on full stack web applications.
+
         <!-- <br>
         Here is some proof that he considers me a dependable person.
         <br>
@@ -23,18 +21,9 @@
     </p>
 {/if}
 
-<!-- <style>
-    .arrow {
-        border: solid white;
-        border-width: 0 5px 5px 0;
-        display: inline-block;
-        padding: 5px;
-        margin: 1rem;
+<style>
+    p {
+        font-size: 1.5em;
     }
 
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-    }
-
-</style> -->
+</style>

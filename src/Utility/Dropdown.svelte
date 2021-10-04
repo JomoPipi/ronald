@@ -14,6 +14,8 @@
     <button class="btn btn-outline-primary"
         on:click={toggle}>
         {title}
+        <br>
+        <br>
         <img class="pic" alt="nunisynth" src={btnImgSrc}>
         <i class="arrow down"></i>
     
@@ -31,7 +33,8 @@
         width: 100%;
         margin: auto;
         margin-bottom: 1rem;
-        font-size: 2rem;
+        padding: .5em .25em;
+        font-size: 1.75em;
     }
     .arrow {
         float: right;

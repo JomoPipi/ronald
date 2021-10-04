@@ -50,4 +50,7 @@
         width: 80%;
         height: auto;
     }
+    li {
+        margin: .5em 0em;
+    }
 </style>

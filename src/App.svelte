@@ -15,6 +15,10 @@
 		</div>
 		<div id="main-content">
 			<!-- <div id="main__grid"></div> -->
+			Ronaldmcorona@gmail.com
+			<br> <a target="_blank" href="https://github.com/JomoPipi"
+			>https://github.com/JomoPipi</a>
+
 			<Summary/>
 			
 			<br><br>
@@ -23,7 +27,6 @@
 
 			<br><br>
 
-			<h3> Contact </h3>
 			Ronaldmcorona@gmail.com
 			<br> <a target="_blank" href="https://github.com/JomoPipi"
 			>https://github.com/JomoPipi</a>
@@ -33,13 +36,14 @@
 
 <style>
 	#main-content {
-		padding: 10%;
+		padding: 2% 10%;
 	}
 
 	.ronald-img {
 		width: 40%;
 		margin: 5%;
-		border-radius: 0.5rem;
+		border-radius: 40px;
+		box-shadow: 8px 8px 8px black;
 	}
 
 	.title-pic {
