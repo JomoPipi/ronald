@@ -18,7 +18,7 @@
         <br>
         <img class="pic" alt="nunisynth" src={btnImgSrc}>
         <i class="arrow down"></i>
-    
+        <span class="tap">TAP TO EXPAND</span>
     </button> 
     {#if show}
         <div class="container" transition:slide>
@@ -56,5 +56,25 @@
         width: 80%;
         height: auto;
         margin: auto;
+    }
+    .tap {
+        height: 2em;
+        padding: 0.1em .2em;
+        animation: flow 11s linear infinite;
+        text-align: center;
+        /* background: linear-gradient(90deg, white, red, green, blue, purple, orange, cyan, white); */
+        background: linear-gradient(90deg, rgb(68, 68, 68),  rgb(99, 82, 0),rgb(68, 68, 68));
+        background-size: 300%;
+        border-radius: 10px;
+        color: white;
+        text-shadow: 3px 3px 3px black;
+    }
+    @keyframes flow { 
+        from {
+            background-position-x: 0%;
+        } 
+        to {
+            background-position-x: 150%;
+        }
     }
 </style>
