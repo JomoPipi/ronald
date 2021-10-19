@@ -27,16 +27,13 @@
                 It has it’s own syntax highlighting and error messages.
             </li>
             <li>
-                Below is a picture of <a target="_blank"
+                Above is a picture of <a target="_blank"
                 href="https://lambdacalceval.ronaldmcorona.now.sh">
                 LambdaCalcEval</a> with some code in it. It's an
                 <code>isEven</code> function that works by successively applying the
                 <code>not</code> function to <code>true</code>, <code>n</code> times.
             </li>
         </ul>
-        <div>
-            <!-- <img class="fit" alt="oops: broken" src="images/lambdacalceval.png"> -->
-        </div>
     </slot>
 </Dropdown>
 
