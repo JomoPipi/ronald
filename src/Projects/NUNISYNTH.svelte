@@ -2,7 +2,7 @@
     import Dropdown from '../Utility/Dropdown.svelte'
 </script>
 
-<Dropdown title="NUNISYNTH" btnImgSrc="https://nunisynth.com/static/media/allnodes.90720be2.png"><slot>
+<Dropdown title="NUNISYNTH" btnImgSrc="images/nunisynth.png"><slot>
     <a target="_blank" href="https://nunisynth.com">
     NUNISYNTH</a> is a <a target="_blank"
     href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)"
@@ -34,22 +34,16 @@
             Users can save their own custom modules and reuse them in any project.
             A handful of helpful modules are provided by default.
         </li>
+        <li> An earlier version of the product was released and sold on 
+            <a href="https://nunisynth.gumroad.com/l/gwIwi?layout=profile"> Gumroad</a>.
+        </li>
     </ul>
     <div>
-        <img class="fit" alt="oops: broken" src="https://nunisynth.com/static/media/module.61ab40d9.png">
-        <img class="fit" alt="oops: broken" src="https://nunisynth.com/static/media/nodes2.1b1eb89f.png">
-        <img class="fit" alt="oops: broken" src="https://nunisynth.com/static/media/4nodes.5335159b.png">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M2EJSqIGXRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </slot></Dropdown>
 
 <style>
-    .fit {
-        display: absolute;
-        display: block;
-        max-width: 80%;
-        width: 80%;
-        height: auto;
-    }
     li {
         margin: .5em 0em;
     }
