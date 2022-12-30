@@ -3,7 +3,7 @@
 </script>
 
 <Dropdown title="NUNISYNTH" btnImgSrc="images/nunisynth.png"><slot>
-    <a target="_blank" href="https://nunisynth.com">
+    <a target="_blank" href="https://noodlesynth.com">
     NUNISYNTH</a> is a <a target="_blank"
     href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)"
     >graphical</a> modular
