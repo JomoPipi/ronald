@@ -38,6 +38,15 @@
 </main>
 
 <style>
+  #pages {
+    /* border: 1px solid purple; */
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+  }
   main {
     display: flex;
     align-items: center;
@@ -45,8 +54,9 @@
   }
   #main-content {
     padding: 2% 10%;
-    width: 1200px;
+    width: 600px;
     max-width: 95vw;
+    /* border: 1px solid red; */
   }
 
   .ronald-img {
