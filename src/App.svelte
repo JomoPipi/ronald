@@ -24,6 +24,7 @@
     <div id="main-content">
       <br /><br />
 
+      <h1>Selected Projects</h1>
       <Projects />
 
       <br /><br />
