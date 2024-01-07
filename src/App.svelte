@@ -19,6 +19,8 @@
     <a target="_blank" href="https://github.com/JomoPipi"
       >https://github.com/JomoPipi</a
     >
+    <a target="_blank" href="./images/october2023resume.pdf">Resume</a>
+    <br />
 
     <Summary />
     <div id="main-content">
@@ -34,6 +36,8 @@
       <a target="_blank" href="https://github.com/JomoPipi"
         >https://github.com/JomoPipi</a
       >
+      <br />
+      <a target="_blank" href="./images/october2023resume.pdf">Resume</a>
     </div>
   </div>
 </main>
