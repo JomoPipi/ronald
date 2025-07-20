@@ -9,8 +9,7 @@
 </h3>  -->
 {#if show}
   <p>
-    I'm an independent software developer working on full stack web
-    applications.
+    Independent software developer working on full stack web applications
 
     <!-- <br>
         Here is some proof that he considers me a dependable person.
@@ -25,5 +24,6 @@
 <style>
   p {
     font-size: 1.5em;
+    text-align: center;
   }
 </style>

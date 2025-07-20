@@ -16,7 +16,7 @@
     <br />
     <img class="pic" alt="nunisynth" src={btnImgSrc} />
     <i class="arrow down" />
-    <span class="tap">TAP TO EXPAND</span>
+    <span class="tap">TAP TO {show ? "COLLAPSE" : "EXPAND"}</span>
   </button>
   {#if show}
     <div class="container" transition:slide>
@@ -26,6 +26,9 @@
 </div>
 
 <style>
+  .container {
+    margin-bottom: 2em;
+  }
   button {
     text-align: left;
     width: 100%;
@@ -54,6 +57,8 @@
     width: 80%;
     height: auto;
     margin: auto;
+    aspect-ratio: 16/10;
+    object-fit: contain;
   }
   .tap {
     height: 2em;
@@ -71,6 +76,7 @@
     border-radius: 10px;
     color: white;
     text-shadow: 3px 3px 3px black;
+    font-size: 0.75em;
   }
   @keyframes flow {
     0% {

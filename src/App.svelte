@@ -2,6 +2,7 @@
   export let name;
   import Summary from "./Summary.svelte";
   import Projects from "./Projects/Projects.svelte";
+  import Links from "./Links.svelte";
 </script>
 
 <main>
@@ -13,16 +14,11 @@
         <h4>writes interactive applications</h4>
       </div>
     </div>
-    <!-- <div id="main__grid"></div> -->
-    Ronaldmcorona@gmail.com
-    <br />
-    <a target="_blank" href="https://github.com/JomoPipi"
-      >https://github.com/JomoPipi</a
-    >
-    <a target="_blank" href="./images/october2023resume.pdf">Resume</a>
-    <br />
 
     <Summary />
+
+    <Links />
+
     <div id="main-content">
       <br /><br />
 
@@ -37,7 +33,7 @@
         >https://github.com/JomoPipi</a
       >
       <br />
-      <a target="_blank" href="./images/october2023resume.pdf">Resume</a>
+      <a target="_blank" href="./images/condensed.pdf">Resume</a>
     </div>
   </div>
 </main>
@@ -67,8 +63,8 @@
   .ronald-img {
     width: 40%;
     margin: 5%;
-    border-radius: 40px;
-    box-shadow: 8px 8px 8px black;
+    border-radius: 1em;
+    box-shadow: 0px 0px 8px black;
   }
 
   .title-pic {

@@ -13,9 +13,14 @@
     </div>
     It also is now in 3D:
     <img class="fit" alt="bloodblaze pic 2" src="images/bloodblaze4.png" />
-    Go play, right now!
+    <span class="strikethrough"
+      >Go play, right now!
+      <a target="_blank" href="https://bloodblaze.io">
+        https://bloodblaze.io
+      </a></span
+    >
 
-    <a target="_blank" href="https://bloodblaze.io"> https://bloodblaze.io </a>
+    Domain name expired. One day it will be back though!
   </slot>
 </Dropdown>
 
@@ -30,5 +35,8 @@
   div {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .strikethrough {
+    text-decoration: line-through;
   }
 </style>
