@@ -29,8 +29,8 @@
 
       Ronaldmcorona@gmail.com
       <br />
-      <a target="_blank" href="https://github.com/JomoPipi"
-        >https://github.com/JomoPipi</a
+      <a target="_blank" href="https://github.com/Jomopipi"
+        >https://github.com/Jomopipi</a
       >
       <br />
       <a target="_blank" href="./images/condensed.pdf">Resume</a>

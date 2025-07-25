@@ -3,8 +3,8 @@
     <div class="email">Ronaldmcorona@gmail.com</div>
     <hr />
     <div>
-      <a target="_blank" href="https://github.com/JomoPipi"
-        >github.com/JomoPipi</a
+      <a target="_blank" href="https://github.com/Jomopipi"
+        >github.com/Jomopipi</a
       >
     </div>
     <hr />
