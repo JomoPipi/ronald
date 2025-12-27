@@ -9,7 +9,7 @@
   }
 </script>
 
-<div class="showing">
+<div class="showing" class:open={show}>
   <button class="btn btn-outline-primary" on:click={toggle}>
     <div class="button-title">{title}</div>
     <br />
@@ -21,13 +21,31 @@
   {#if show}
     <div class="container" transition:slide>
       <slot>Nothing here yet!</slot>
+      <button class="tap tap2" on:click={toggle}
+        >TAP TO {show ? "COLLAPSE" : "EXPAND"}
+      </button>
     </div>
   {/if}
 </div>
 
 <style>
   .container {
-    margin: 1em 0em;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border: 4px solid gray;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    z-index: 99;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+  }
+  .showing {
+    display: sticky;
+    position: relative;
+    top: 0;
+  }
+  .showing.open {
+    z-index: 10;
   }
   button {
     text-align: left;
@@ -51,10 +69,6 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
-  .showing {
-    display: sticky;
-    top: 0;
-  }
   .pic {
     display: block;
     width: 80%;
@@ -66,7 +80,7 @@
   .tap {
     height: 2em;
     padding: 0.1em 0.2em;
-    animation: flow 1s linear infinite;
+    animation: flow 2s linear infinite;
     text-align: center;
     /* background: linear-gradient(90deg, white, red, green, blue, purple, orange, cyan, white); */
     background: linear-gradient(
@@ -80,6 +94,12 @@
     color: white;
     text-shadow: 3px 3px 3px black;
     font-size: 0.75em;
+  }
+  .tap2 {
+    border: 0px;
+    width: 50%;
+    animation: none;
+    margin-top: 0.5rem;
   }
   @keyframes flow {
     0% {

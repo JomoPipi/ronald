@@ -68,4 +68,11 @@
   li {
     margin: 0.5em 0em;
   }
+  iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+  }
 </style>

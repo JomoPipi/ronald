@@ -27,12 +27,27 @@
     gap: 1rem;
     left: 0;
   }
-  div > :nth-child(even) {
+  div > .item:nth-child(even) {
     transform: translateY(50%);
   }
+  /* Force earlier items to sit ON TOP of later items */
+  /* very brute-force-ish, but... whatever  */
+  /* prettier-ignore */
+  div > .item:nth-child(1) { z-index: 10; } /* prettier-ignore */
+  div > .item:nth-child(2) { z-index: 9; } /* prettier-ignore */
+  div > .item:nth-child(3) { z-index: 8; } /* prettier-ignore */
+  div > .item:nth-child(4) { z-index: 7; } /* prettier-ignore */
+  div > .item:nth-child(5) { z-index: 6; } /* prettier-ignore */
+  div > .item:nth-child(6) { z-index: 5; } /* prettier-ignore */
+  div > .item:nth-child(7) { z-index: 4; } /* prettier-ignore */
+  div > .item:nth-child(8) { z-index: 3; }
+
   @media screen and (max-width: 768px) {
     .grid {
       grid-template-columns: 1fr;
+    }
+    div > .item:nth-child(even) {
+      transform: none;
     }
   }
 </style>
