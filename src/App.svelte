@@ -55,7 +55,7 @@
   }
   #main-content {
     padding: 2% 10%;
-    width: 600px;
+    width: 900px;
     max-width: 95vw;
     /* border: 1px solid red; */
   }

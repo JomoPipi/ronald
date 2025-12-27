@@ -11,7 +11,7 @@
 
 <div class="showing">
   <button class="btn btn-outline-primary" on:click={toggle}>
-    {title}
+    <div class="button-title">{title}</div>
     <br />
     <br />
     <img class="pic" alt="nunisynth" src={btnImgSrc} />
@@ -27,15 +27,18 @@
 
 <style>
   .container {
-    margin-bottom: 2em;
+    margin: 1em 0em;
   }
   button {
     text-align: left;
     width: 100%;
     margin: auto;
-    margin-bottom: 1rem;
     padding: 0.5em 0.25em;
     font-size: 1.75em;
+  }
+  .button-title {
+    max-height: 0.5em;
+    overflow-y: visible;
   }
   .arrow {
     float: right;
