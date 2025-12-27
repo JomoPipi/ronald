@@ -9,26 +9,29 @@
   import BlurBlaze from "./BlurBlaze.svelte";
 </script>
 
-<div>
-  <NUNISYNTH />
-  <BlurBlaze />
-  <CryptoPumpNotifier />
-  <Bloodblaze />
-  <LambdaCalcEval />
-  <CodingPro />
-  <WiFiCar />
-  <MotorProject />
+<div class="grid">
+  <div class="item"><NUNISYNTH /></div>
+  <div class="item"><BlurBlaze /></div>
+  <div class="item"><CryptoPumpNotifier /></div>
+  <div class="item"><Bloodblaze /></div>
+  <div class="item"><LambdaCalcEval /></div>
+  <div class="item"><CodingPro /></div>
+  <div class="item"><WiFiCar /></div>
+  <div class="item"><MotorProject /></div>
 </div>
 
 <style>
-  div {
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     left: 0;
   }
+  div > :nth-child(even) {
+    transform: translateY(50%);
+  }
   @media screen and (max-width: 768px) {
-    div {
+    .grid {
       grid-template-columns: 1fr;
     }
   }
