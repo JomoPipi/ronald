@@ -14,6 +14,9 @@
     your coins pump. You select the coins and you select the threshold. No need to
     sign up!
 
+    <br />
+    Built with Supabase and Node.js.
+
     <div>
       <img class="fit" alt="crypto alert success" src="images/cpnalert.png" />
     </div>

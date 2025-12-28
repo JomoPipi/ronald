@@ -6,7 +6,8 @@
   <slot>
     <a target="_blank" href="https://bloodblaze.io"> BLOOD BLAZE</a> is a 2D
     top-down fast-paced multiplayer shooter game. It works on mobile and desktop
-    browsers. Shoot your friends in the face and enjoy.
+    browsers. Shoot your friends in the face and enjoy. Built with Node.js on
+    the server, TypeScript and Svelte on the frontend.
     <div>
       <img class="fit" alt="bloodblaze pic" src="images/bloodblaze3.png" />
       <img class="fit" alt="bloodblaze pic 2" src="images/bloodblaze2.png" />
