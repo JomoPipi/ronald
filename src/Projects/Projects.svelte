@@ -7,9 +7,11 @@
   import MotorProject from "./MotorProject.svelte";
   import CryptoPumpNotifier from "./CryptoPumpNotifier.svelte";
   import BlurBlaze from "./BlurBlaze.svelte";
+  import RWS from "./RWS.svelte";
 </script>
 
 <div class="grid">
+  <div class="item"><RWS /></div>
   <div class="item"><NUNISYNTH /></div>
   <div class="item"><BlurBlaze /></div>
   <div class="item"><CryptoPumpNotifier /></div>
